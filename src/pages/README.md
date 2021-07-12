@@ -1,1 +1,3 @@
-route 되는 페이지들
+# pages
+
+- route 되는 페이지들
