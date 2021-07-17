@@ -1,20 +1,10 @@
-import AppLayout from 'components/layout';
-import Home from 'pages/home';
-import Profile from 'pages/profile';
-import { Route, Switch } from 'react-router-dom';
+import React from 'react';
 
 function App() {
   return (
-    <AppLayout>
-      <Switch>
-        <Route path={['/', '/Home']} exact>
-          <Home />
-        </Route>
-        <Route path="/Profile">
-          <Profile />
-        </Route>
-      </Switch>
-    </AppLayout>
+    <div className="App">
+      <></>
+    </div>
   );
 }
 
