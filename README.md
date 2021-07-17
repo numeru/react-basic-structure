@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# 리액트 프로젝트 폴더구조
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- App
+  - page
+    - layout
+      - component
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### 폴더별 용도와 예시
 
-### `yarn start`
+1. [apis](https://github.com/numeru/react-basic-structure/tree/main/src/apis)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. [assets](https://github.com/numeru/react-basic-structure/tree/main/src/assets)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3. [components](https://github.com/numeru/react-basic-structure/tree/main/src/components)
 
-### `yarn test`
+4. [hooks](https://github.com/numeru/react-basic-structure/tree/main/src/hooks)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. [pages](https://github.com/numeru/react-basic-structure/tree/main/src/pages)
 
-### `yarn build`
+6. [stores](https://github.com/numeru/react-basic-structure/tree/main/src/stores)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7. [utils](https://github.com/numeru/react-basic-structure/tree/main/src/utils)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 그 외
 
-### `yarn eject`
+1. 모든 컴포넌트들은 그 컴포넌트의 이름을 가진 폴더 안에  
+   index.tsx와 styled.ts를 담은 형태로 통일한다.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- header
+  - index.tsx
+  - styled.ts (styled-components)
